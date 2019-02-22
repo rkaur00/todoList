@@ -1,7 +1,7 @@
 # todoList
 Track your work List
 
-Deployment URl:
+Deployment URL:
 
 **get:** http https://todolist-pgjwuqcza.now.sh/api/get < get.json
 
