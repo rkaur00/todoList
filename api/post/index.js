@@ -11,7 +11,7 @@ app.use(cors())
 app.use(async ctx => {
   const data = await ctx.request.body
   const item = await createPost(data.todoItem, data.todoDate, data.todoStatus,data.todoDueDate)
-  ctx.body = `new todoList created, todoID ${item.insertId}`
+  ctx.body = `new todoList created`
 })
 
 async function createPost(todoItem,todoDate,todoStatus,todoDueDate) {
