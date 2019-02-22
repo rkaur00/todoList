@@ -3,10 +3,10 @@ Track your work List
 
 Deployment URL:
 
-**get:** http https://todolist-pgjwuqcza.now.sh/api/get < get.json
+**get:** http GET https://todolist-cwqtypjql.now.sh/api/get < get.json
 
-**update:** http https://todolist-pgjwuqcza.now.sh/api/update < put.json
+**update:** http PUT https://todolist-cwqtypjql.now.sh/api/update < put.json
 
-**delete:** http https://todolist-pgjwuqcza.now.sh/api/delete < delete.json
+**delete:** http DELETE https://todolist-cwqtypjql.now.sh/api/delete < delete.json
 
-**post:** http https://todolist-pgjwuqcza.now.sh/api/post < post.json
+**post:** http POST https://todolist-cwqtypjql.now.sh/api/post < post.json
